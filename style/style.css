@@ -1,0 +1,361 @@
+header {
+	position: relative;
+	padding: 30px 30px;
+}
+
+.black {
+	background-color: black;
+	width: 59%;
+	position: relative;
+	bottom: 30px;
+}
+
+.drop {
+	background-color: black;
+	color: white;
+	padding: 26px;
+	font-size: 16px;
+	border: 2px white;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-size: 13px;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .drop {background-color: black;}
+
+.clove {
+	background-image: url("images/head.jpg");
+
+}
+
+aside {
+    position: relative;
+    background-color: black;
+    padding-bottom: 132px;
+    width: 41%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p, button, a, aside, span {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.signup {
+	background-color: white;
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: 2px white;
+	border-radius: 12px;
+	text-decoration: none;
+	display: inline-block;
+}
+header { font-family: 'vermin_vibes_vregular'; color: white; background-color: black; }
+
+
+
+
+@font-face {
+    font-family: 'vermin_vibes_vregular';
+    src: url('verminvibesv-zlg3-webfont.woff2') format('woff2'),
+         url('verminvibesv-zlg3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.game {
+	position: relative;
+	left: 20px;
+	font-size: 30px;
+	color: white;
+}
+
+.aw {
+	position: relative;
+	left: 20px;
+	bottom: 20px;
+	color: white;
+}
+
+.sek {
+	position: relative;
+	left: 20px;
+	width: 80%;
+}
+img {
+	width: 50%;
+	position: relative;
+	bottom: 20px;
+}
+
+.gameaw {
+	background-color: white;
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: 2px white;
+	border-radius: 12px;
+	text-decoration: none;
+	position: relative;
+	left: 20px;
+	bottom: 10px;
+}
+.logo {
+	width: 20%;
+	margin: 50px 80px 50px 80px;
+}
+
+.store {
+	background-color: black;
+	position: relative;
+	bottom: 30px;
+}
+
+.no {
+	position: relative;
+	left: 460px;
+}
+.phn {
+	position: relative;
+	left: 460px;
+}
+.env {
+	position: relative;
+	left: 450px;
+}
+.email {
+	position: relative;
+	left: 450px;
+}
+
+.name {
+	position: relative;
+	left: 440px;
+}
+.nav {
+	position: relative;
+	left: 440px;
+}
+.wav {
+	color: White;
+	font-style: bold;
+	position: relative;
+	left: 20px;
+	bottom: 40px;
+	font-size: 30px;
+	margin: none;
+	padding: none;
+}
+aside > img {
+	position: relative;
+	top: 50px;
+	width: 80%;
+
+}
+.row {
+	position: relative;
+	top: 40px;
+}
+.bow {
+	position: relative;
+	top: 30px;
+}
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-distributed .footer-right{
+	width: 30%;
+}
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+.footer-distributed .footer-center{
+	width: 35%;
+}
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links .way{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+.footer-distributed h3 span{
+	color:  white;
+}
+.footer-distributed .footer-left {
+	width: 30%;
+}
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed .h3{
+	color:  #e0ac1c;
+	font:16px/1.6 Arial,  sans-serif;
+	font-size: 20px;
+	margin: 0;
+}
+.footer-distributed{
+	background-color: black;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+.gem {
+	font-family: 'vermin_vibes_vregular';
+	font-size: 20px;
+}
+@font-face {
+    font-family: 'vermin_vibes_vregular';
+    src: url('verminvibesv-zlg3-webfont.woff2') format('woff2'),
+         url('verminvibesv-zlg3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+	background-color: #eaf0f2;
+}
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+footer {
+	position: relative;
+	bottom: 109px;
+}
