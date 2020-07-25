@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Registration</title>
 	<link href="style/style2.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="script1.js"></script>
 </head>
 <body>
 
@@ -13,47 +13,47 @@
 		<header>
 			<h2>Register</h2>
 		</header>
-		<form action="registration.html" method="post">
+		<form id="myForm" action="reg.html" method="post">
 			<div class="input">
 
 				<label>First name : </label>
-				<input type="text" name="fname" required><br>
+				<input id="fname" type="text" name="fname" required><br>
 			</div>
 				
 			<div class="input">
 				<label>Last name : </label>
-				<input type="text" name="lname" required>
+				<input id="lname" type="text" name="lname" required>
 
 			</div>
 
 			<div class="input">
 
-				<label>Username : </label>				<input type="text" name="username" required>
+				<label>Username : </label>				<input id="username" type="text" name="username" required>
 
 			</div>
 
 			<div class="input">
 
 				<label>Email :</label>
-				<input type="email" name="email" required>
+				<input id="ema" type="email" name="ema" required>
 
 			</div>
 
 			<div class="input">
 
 				<label>Age : </label>
-				<input type="number" name="age" required>
+				<input id="age" type="number" name="age" required>
 
 			</div>
 
 			<div class="input">
 
 				<label>Phone No : </label>
-				<input type="number" name="phn" required>
+				<input id="phn" type="number" name="phn" required>
 
 			</div>
 
-			<div class="input">
+			<!--<div class="input">
 
 				<label>Password : </label>
 				<input type="password" name="password_1"required>
@@ -65,10 +65,10 @@
 				<label for="password">Confirm Password : </label>
 				<input type="password" name="password_2"required>
 
-			</div>
+			</div>-->
 
 			<div class="input">
-				<button type="submit" class="btn" name="reg_user"> Submit </button>
+				<button type="submit" class="btn" onclick="addRow();"> Submit </button>
 			</div>
 
 			<p>Already a user? <a href="login.html"><strong>Log In</strong></a></p>
@@ -78,6 +78,25 @@
 		<a href="index.html"><button class="stn">Home</button></a>
 
 	</div>
+	<table border="1">
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Username</th>
+				<th>Email</th>
+				<th>Age</th>
+				<th>Contact</th>
+			</tr>
+
+			<tr>
+				<td>Hritik</td>
+				<td>Munde</td>
+				<td>hsmunde</td>
+				<td>hsmunde@mitaoe.ac.in</td>
+				<td>20</td>
+				<td>9373328285</td>
+			</tr>
+	</table>
 
 
 </body>
